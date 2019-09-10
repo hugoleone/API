@@ -5,8 +5,8 @@ const connection = mysql.createConnection({
     host: 'localhost',
     port: '3306',
     user: 'root',
-    password: '!minha@Senha#123',
-    database:'SGD'
+    password: '',
+    database: 'db_sgd'
 });
 
 //Abaixo estamos realizando a exportação da constante connection para ficar disponível para outros arquivos da API.
